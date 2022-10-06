@@ -1,4 +1,4 @@
-.textko{
+/*.textko{
        color: blueviolet;
 }
 
@@ -17,4 +17,58 @@ body{
 
 .card-body{
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+*/
+
+div.card{
+    border: solid 1px silver;
+}
+
+.text-center .text-primary{
+    background-color: blue;
+}
+
+.col-sm-4{
+    float: left;
+    width: 32;
+    padding: 10px;
+    border: 2;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:800px){
+    .clum{
+        width: 100%;
+    }
+}
+
+body{
+    font-family: "verdana";
+    color: black;
+}
+
+a{
+    color: aquamarine;
+}
+
+a:hover{
+    color: aqua;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bg-primary{
+     background-color: cadetblue !important;
 }
