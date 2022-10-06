@@ -1,0 +1,20 @@
+.textko{
+       color: blueviolet;
+}
+
+.active{
+    background-color: brown;
+}
+
+body{
+    background-color: coral;
+}
+
+.card-body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:darkkhaki;
+}
+
+.card-body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
